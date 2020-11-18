@@ -16,9 +16,6 @@ basics:
   - network: LinkedIn
     username: Mehdi Fekih
     url: http://www.linkedin.com/in/mehdifekih/
-  - network: Resume
-    username: PDF
-    url: http://setiz.github.io/resume/resume.pdf
 skills:
 - name: Languages
   keywords:
