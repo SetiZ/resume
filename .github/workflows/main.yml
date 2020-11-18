@@ -12,11 +12,11 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
-      # - uses: actions/setup-node@v2.1.2
-      #   with:
-      #     node-version: '12'
-      #     check-latest: true
-      # - run: yarn install --pure-lockfile
-      #   name: Install dependencies
-      # - run: yarn generate
-      #   name: Generate PDF
+      - uses: actions/setup-node@v2.1.2
+        with:
+          node-version: '12'
+          check-latest: true
+      - run: yarn install --pure-lockfile
+        name: Install dependencies
+      - run: yarn generate
+        name: Generate PDF
