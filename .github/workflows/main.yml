@@ -15,14 +15,14 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
-      - name: Webpage to PDF
-        uses: misaelnieto/web_to_pdf_action@v0.3.1
-        with:
-          webPageURL: https://setiz.github.io/resume/
-          outputFile: resume.pdf
-          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
-      - name: Upload pdf artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: resume
-          path: resume.pdf
+      # - name: Webpage to PDF
+      #   uses: misaelnieto/web_to_pdf_action@v0.3.1
+      #   with:
+      #     webPageURL: https://setiz.github.io/resume/
+      #     outputFile: resume.pdf
+      #     pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
+      # - name: Upload pdf artifact
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: resume
+      #     path: resume.pdf
