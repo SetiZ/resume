@@ -70,8 +70,8 @@ work:
   position: Fullstack developer
   url: https://www.sfeir.com
   startDate: '2017-03-06'
-  endDate: '2020-12-31'
-  summary: SFEIR is an expert company specializing in the development of applications in all their forms.
+  # endDate: '2020-12-31'
+  summary: SFEIR is an expert company specializing in the development of applications in all their forms
   description: Contracted to work at Franceinfo
   highlights:
   - Learn basics in React and Vue
@@ -84,7 +84,7 @@ work:
   url: https://www.franceinfo.fr
   startDate: '2017-03-08'
   endDate: '2020-07-15'
-  summary: Franceinfo is a continuous French public information television channel.
+  summary: Franceinfo is a continuous French public information television channel
   description: Development, improvements and maintenance of the desktop and mobile website
   highlights:
   - New features and maintenance of elements and web pages

@@ -12,15 +12,9 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
-      - uses: "imbhargav5/puppeteer-pdf-action@master"
+      - name: Webpage to PDF
+        uses: misaelnieto/web_to_pdf_action@v0.3.1
         with:
-          url: https://setiz.github.io/resume/
-          output-file-path: resume.pdf
-      #- uses: actions/setup-node@v2.1.2
-      #  with:
-      #    node-version: '12'
-      #    check-latest: true
-      #- run: yarn install --pure-lockfile
-      #  name: Install dependencies
-      #- run: yarn generate
-      #  name: Generate PDF
+          webPage: https://setiz.github.io/resume/
+          outputFile: ./path/to/my/resume.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
