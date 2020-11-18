@@ -1,47 +1,166 @@
 ---
 basics:
-  name: Richard Hendriks
-  label: Programmer
+  name: Mehdi Fekih
+  label: Fullstack Developer
   image: ''
-  email: richard.hendriks@mail.com
-  phone: "(912) 555-4321"
-  url: http://richardhendricks.example.com
-  summary: Richard hails from Tulsa. He has earned degrees from the University of
-    Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper,
-    he worked for Hooli as a part time software developer. While his work focuses
-    on applied information theory, mostly optimizing lossless compression schema of
-    both the length-limited and adaptive variants, his non-work interests range widely,
-    everything from quantum computing to chaos theory. He could tell you about it,
-    but THAT would NOT be a “length-limited” conversation!
-  location:
-    address: 2712 Broadway St
-    postalCode: CA 94115
-    city: San Francisco
-    countryCode: US
-    region: California
+  email: mehdi.fekih@gmail.com
+  url: http://www.setiz.net
+  summary: I am a Full-stack developer with strong Front-end sensitivity base in Paris, France. Interested in javascript tools, I am looking to improve my knowledge of front and back frameworks.
   profiles:
+  - network: Github
+    username: SetiZ
+    url: https://www.github.com/SetiZ
   - network: Twitter
-    username: neutralthoughts
-    url: ''
-  - network: SoundCloud
-    username: dandymusicnl
-    url: https://soundcloud.example.com/dandymusicnl
+    username: funkysetiz
+    url: https://www.twitter.com/funkysetiz
+  - network: LinkedIn
+    username: Mehdi Fekih
+    url: http://www.linkedin.com/in/mehdifekih/
+skills:
+- name: Languages
+  keywords:
+  - HTML5
+  - CSS3
+  - Javascript (ES2015+)
+  - Typescript
+  - PHP
+  - Golang
+- name: Tools
+  keywords:
+  - NodeJS
+  - Webpack
+  - Gulp
+  - Babel
+  - ESLint
+  - StyleLint
+  - Docker
+  - Git
+  - Jenkins
+- name: skills
+  keywords:
+  - Debugging
+  - Performance
+  - Optimization
+  - Code review
+  - Testing
+  - Agile methods
+- name: Tests
+  keywords:
+  - Jest
+  - Karma
+  - Jasmine
+  - Cypress
+- name: Database
+  keywords:
+  - MySQL
+  - PostgreSQL
+  - NoSQL
+- name: Other
+  keywords:
+  - PWA
+  - SASS
+  - BEM
+  - Lazyload
+  - CacheBusting
+  - critical CSS
+  - Accessibility
 work:
-- name: Pied Piper
-  location: Palo Alto, CA
-  description: Awesome compression company
-  position: CEO/President
-  url: http://piedpiper.example.com
-  startDate: '2013-12-01'
-  endDate: '2014-12-01'
-  summary: Pied Piper is a multi-platform technology based on a proprietary universal
-    compression algorithm that has consistently fielded high Weisman Scores™ that
-    are not merely competitive, but approach the theoretical limit of lossless compression.
+- name: SFEIR
+  location: Neuilly-sur-Seine, France
+  position: Fullstack developer
+  url: https://www.sfeir.com
+  startDate: '2017-03-06'
+  endDate: '2020-12-31'
+  summary: SFEIR is an expert company specializing in the development of applications in all their forms.
+  description: Contracted to work at Franceinfo
   highlights:
-  - Build an algorithm for artist to detect if their music was violating copy right
-    infringement laws
-  - Successfully won Techcrunch Disrupt
-  - Optimized an algorithm that holds the current world record for Weisman Scores
+  - Learn basics in React and Vue
+  - Contribute in Open source projects
+  - Contribute in Voice Assistant projects
+  - Self-train in Nestjs and Flutter
+- name: Franceinfo
+  location: Paris, France
+  position: Web developer
+  url: https://www.franceinfo.fr
+  startDate: '2017-03-08'
+  endDate: '2020-07-15'
+  summary: Franceinfo is a continuous French public information television channel.
+  description: Development, improvements and maintenance of the desktop and mobile website
+  highlights:
+  - New features and maintenance of elements and web pages
+  - Development for the BackOffice and APIs for mobile applications
+  - Creation of web components for the redesign of the new site
+  - Performance optimization on mobile and desktop
+  - Reduction of technical debt
+  - Unit tests
+  - Technical redesign of the site
+  - Development and design of the technical and visual redesign of the website
+  - Construction of the front bundling stack for the technical overhaul
+  - Construction of Docker containers
+
+- name: Adyoulike
+  location: Paris, France
+  position: Web developer
+  url: https://www.adyoulike.com
+  startDate: '2014-08-01'
+  endDate: '2017-02-28'
+  summary:
+  highlights:
+  - Development of new native advertising formats
+  - Evolution and maintenance of responsive design for multiple browser and devices
+  - Backend development
+- name: Sofialys
+  location: Paris, France
+  position: Web developer
+  url: https://www.sofialys.com
+  startDate: '2010-07-01'
+  endDate: '2014-07-31'
+  summary:
+  description: Development et maintenance of mobile advertising SDK for Android
+  highlights:
+  - Development of mobile advertising SDK for Android
+  - Evolution and maintenance of the SDK
+  - Development of dynamic advertising campaigns for mobile
+  - Management and maintenance of several libraries for various mobile advertising platforms
+  - Worked on the developpement of internal management tool campaigns
+- name: Sofialys
+  location: Paris, France
+  position: Web developer - Intern
+  url: https://www.sofialys.com
+  startDate: '2010-01-01'
+  endDate: '2010-06-30'
+  highlights:
+  - Worked on a tool for managing sending ads based on geolocation
+  - Management and maintenance of a mobile advertising library on Android
+- name: Matters (Inovia-Team)
+  location: Paris, France
+  position: Web developer - Intern
+  url: https://www.matters.tech
+  startDate: '2009-03-01'
+  endDate: '2009-08-31'
+  highlights:
+  - Creating a tool to create, install and manage web applications
+education:
+- institution: University of Evry Val-d'Essonne - Evry
+  startDate: '2008-01-01'
+  endDate: '2009-01-01'
+- institution: ENSIIE - Evry
+  startDate: '2004-06-01'
+  endDate: '2008-01-01'
+languages:
+  keywords:
+  - French
+  - English
+  - Arabic
+interests:
+  keywords:
+  - Video games
+  - IOT
+  - Guitar
+  - Drums
+  - Photography
+
+# unused
 volunteer:
 - organization: CoderDojo
   position: Teacher
@@ -51,16 +170,6 @@ volunteer:
   summary: Global movement of free coding clubs for young people.
   highlights:
   - Awarded 'Teacher of the Month'
-education:
-- institution: University of Oklahoma
-  area: Information Technology
-  studyType: Bachelor
-  startDate: '2011-06-01'
-  endDate: '2014-01-01'
-  gpa: '4.0'
-  courses:
-  - DB1101 - Basic SQL
-  - CS2011 - Java Introduction
 awards:
 - title: Digital Compression Pioneer Award
   date: '2014-11-01'
@@ -73,27 +182,6 @@ publications:
   url: http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)
   summary: Innovative middle-out compression algorithm that changes the way we store
     data.
-skills:
-- name: Web Development
-  level: Master
-  keywords:
-  - HTML
-  - CSS
-  - Javascript
-- name: Compression
-  level: Master
-  keywords:
-  - Mpeg
-  - MP4
-  - GIF
-languages:
-- language: English
-  fluency: Native speaker
-interests:
-- name: Wildlife
-  keywords:
-  - Ferrets
-  - Unicorns
 references:
 - name: Erlich Bachman
   reference: It is my pleasure to recommend Richard, his performance working as a

@@ -8,7 +8,7 @@ const Publications = ({ publications }) => (
   <div className="col-sm-9">
     <div className="row">
     {publications.map(publication => (
-      <div className="col-sm-12">
+      <div className="col-sm-12" key={publication.name}>
         <h4 className="strike-through">
           <span>{publication.name}</span>
           <span className="date">

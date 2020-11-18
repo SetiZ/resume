@@ -8,13 +8,13 @@ const Profiles = ({ profiles }) => (
     <div className="col-sm-9">
       <div className="row">
         {profiles.map(profile => (
-          <div className="col-sm-6">
+          <div className="col-sm-6" key={profile.network}>
             <strong className="network">{profile.network}</strong>
             {profile.username && (
               <div className="username">
                 {profile.url ? (
                   <div className="url">
-                    <a href="{profile.url}">{profile.username}</a>
+                    <a href={profile.url}>{profile.username}</a>
                   </div>
                 ) : (
                   <span>{profile.username}</span>

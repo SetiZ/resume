@@ -8,7 +8,7 @@ const Skills = ({ skills }) => (
   <div className="col-sm-9">
     <div className="row">
     {skills.map(skill => (
-      <div className="col-sm-6">
+      <div className="col-sm-9" key={skill.name}>
         <div className="name">
           <h4>{skill.name}</h4>
         </div>

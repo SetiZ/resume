@@ -8,7 +8,7 @@ const Work = ({ works }) => (
     <div className="col-sm-9">
       <div className="row">
         {works.map(work => (
-          <div className="col-sm-12">
+          <div className="col-sm-12" key={work.name}>
             <h4 className="strike-through">
               <span>{work.name}</span>
               <span className="date">
@@ -16,11 +16,14 @@ const Work = ({ works }) => (
               </span>
             </h4>
             <div className="website pull-right">
-              <a href="{work.url}">{work.url}</a>
+              <a href={work.url}>{work.url}</a>
             </div>
             <div className="position">{work.position}</div>
             <div className="summary">
               <p>{work.summary}</p>
+            </div>
+            <div className="description">
+              <p>{work.description}</p>
             </div>
             {work.highlights && (
               <React.Fragment>

@@ -45,7 +45,7 @@ li:before {
 	position: absolute;
 }
 blockquote {
-	border-left: 5px solid #e7e9ec;
+	border-left: 5px solid #7a7c7e;
 	font-size: 14px;
 }
 em {
@@ -113,6 +113,31 @@ h4 span:first-child {
 }
 #publications .website a:before {
 	content: attr(href);
+}
+#languages ul,
+#interests ul {
+	padding-left: 15px;
+}
+#skills li,
+#languages li,
+#interests li {
+	display: inline-block;
+}
+#skills li:after,
+#languages li:after,
+#interests li:after {
+	content: "\f052";
+	font: 13px Octicons;
+	opacity: .1;
+	margin: 0 12px;
+}
+#skills li:before,
+#languages li:before,
+#interests li:before,
+#skills li:last-child:after,
+#languages li:last-child:after,
+#interests li:last-child:after {
+	content: "";
 }
 
 @media (min-width: 480px) {

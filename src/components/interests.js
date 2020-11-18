@@ -7,19 +7,19 @@ const Interests = ({ interests }) => (
 		</aside>
 		<div className="col-sm-9">
 			<div className="row">
-			{interests.map(interest => (
-        <div className="col-sm-6">
+			{/* {interests.map(interest => (
+        <div className="col-sm-6" key={interest.name}>
           <div className="name">
             <h4>{interest.name}</h4>
-          </div>
+          </div> */}
           <ul className="keywords">
-            {interest.keywords.map(keyword => (
+            {interests.keywords.map(keyword => (
               <li>{keyword}</li>
             ))}
           </ul>
         </div>
-      ))}
-			</div>
+      {/* ))}
+			</div> */}
 		</div>
 	</section>);
 

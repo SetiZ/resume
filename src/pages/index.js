@@ -17,7 +17,6 @@ export const query = graphql`
         email
         name
         label
-        phone
         url
         summary
         profiles {
@@ -47,13 +46,9 @@ export const query = graphql`
         url
       }
       education {
-        area
-        courses
-        endDate(formatString: "MMM, YYYY")
-        gpa
+        endDate(formatString: "YYYY")
         institution
-        startDate(formatString: "MMM, YYYY")
-        studyType
+        startDate(formatString: "YYYY")
       }
       awards {
         awarder
@@ -70,16 +65,13 @@ export const query = graphql`
       }
       skills {
         keywords
-        level
         name
       }
       languages {
-        fluency
-        language
+        keywords
       }
       interests {
         keywords
-        name
       }
       references {
         name

@@ -33,15 +33,15 @@ const Resume = ({ resume }) => {
         <Contact basics={basics} />
         <About basics={basics} />
         <Profiles profiles={basics.profiles||[]} />
-        <Work works={work} />
-        <Volunteer volunteers={volunteer} />
-        <Education educations={education} />
-        <Awards awards={awards} />
-        <Publications publications={publications} />
         <Skills skills={skills} />
+        <Work works={work} />
+        {/* <Volunteer volunteers={volunteer} /> */}
+        <Education educations={education} />
+        {/* <Awards awards={awards} /> */}
+        {/* <Publications publications={publications} /> */}
         <Languages languages={languages} />
         <Interests interests={interests} />
-        <References references={references} />
+        {/* <References references={references} /> */}
       </div>
     </React.Fragment>
   );

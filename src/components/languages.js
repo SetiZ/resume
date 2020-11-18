@@ -7,16 +7,13 @@ const Languages = ({ languages }) => (
 		</aside>
 		<div className="col-sm-9">
       <div className="row">
-      {languages.map(language => (
-        <div className="col-sm-6">
           <div className="language">
-            <strong>{language.language}</strong>
+            <ul className="keywords">
+              {languages.keywords.map(keyword => (
+                <li>{keyword}</li>
+              ))}
+            </ul>
           </div>
-          <div className="fluency">
-            {language.fluency}
-          </div>
-        </div>
-      ))}
 			</div>
 		</div>
 	</section>);

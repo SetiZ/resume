@@ -11,10 +11,10 @@ const Contact = ({ basics }) => (
           <strong>Email</strong>
           <div className="email">{basics.email}</div>
         </div>
-        <div className="col-sm-6">
+        {/* <div className="col-sm-6">
           <strong>Phone</strong>
           <div className="phone">{basics.phone}</div>
-        </div>
+        </div> */}
         <div className="col-sm-6">
           <strong>Website</strong>
           <div className="website">

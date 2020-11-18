@@ -8,7 +8,7 @@ const Volunteer = ({ volunteers }) => (
   <div className="col-sm-9">
     <div className="row">
     {volunteers.map(volunteer => (
-      <div className="col-sm-12">
+      <div className="col-sm-12" key={volunteer.organization}>
         <h4 className="strike-through">
           <span>{volunteer.organization}</span>
           <span className="date">

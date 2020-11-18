@@ -8,7 +8,7 @@ const Awards = ({ awards }) => (
 		<div className="col-sm-9">
 			<div className="row">
 			{awards.map(award => (
-        <div className="col-sm-12">
+        <div className="col-sm-12" key={award.title}>
           <h4 className="strike-through">
             <span>{award.title}</span>
           </h4>
