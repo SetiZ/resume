@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/146aea20-09b6-497a-bc7b-b9842a1d0fdb/deploy-status)](https://app.netlify.com/sites/resume-with-gatsby/deploys)
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/146aea20-09b6-497a-bc7b-b9842a1d0fdb/deploy-status)](https://app.netlify.com/sites/resume-with-gatsby/deploys) -->
 
 # resume-with-gatsby
 
@@ -12,4 +12,4 @@ The theme used is [Flat](https://themes.jsonresume.org/theme/flat) by [Mattias E
 
 You can read more information here: https://pcarion.com/article/gatsby-resume
 
-[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pcarion/resume-with-gatsby)
+<!-- [![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pcarion/resume-with-gatsby) -->
