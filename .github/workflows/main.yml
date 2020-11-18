@@ -6,14 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2.1.2
-        with:
-          node-version: '12'
-          check-latest: true
-
       - name: Gatsby Publish
         uses: enriikke/gatsby-gh-pages-action@v2.1.1
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
+      - uses: actions/setup-node@v2.1.2
+        with:
+          node-version: '12'
+          check-latest: true
+      - run: yarn install --pure-lockfile
+        name: Install dependencies
       - run: yarn generate
         name: Generate PDF
