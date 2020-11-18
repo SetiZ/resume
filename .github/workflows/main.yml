@@ -15,6 +15,6 @@ jobs:
       - name: Webpage to PDF
         uses: misaelnieto/web_to_pdf_action@v0.3.1
         with:
-          webPage: https://setiz.github.io/resume/
+          webPageURL: https://setiz.github.io/resume/
           outputFile: ./path/to/my/resume.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
