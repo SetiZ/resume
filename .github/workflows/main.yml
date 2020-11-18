@@ -20,7 +20,7 @@ jobs:
         with:
           webPageURL: https://setiz.github.io/resume/
           outputFile: resume.pdf
-          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": 3."5cm"}}'
+          pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
       - name: Upload pdf artifact
         uses: actions/upload-artifact@v2
         with:
