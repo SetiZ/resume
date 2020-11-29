@@ -20,6 +20,8 @@ jobs:
         with:
           webPageURL: https://setiz.github.io/resume/
           outputFile: resume.pdf
+          usePuppeteer: true
+          useScreen: true
           pdfOptions: '{"format": "A4", "margin": {"left": "2cm", "top": "4cm", "right": "1cm", "bottom": "3.5cm"}}'
       - name: Upload pdf artifact
         uses: actions/upload-artifact@v2
