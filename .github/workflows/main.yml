@@ -27,7 +27,7 @@ jobs:
         with:
           commit_message: Generate PDF
           branch: gh-pages
-          file_pattern: *.pdf
+          file_pattern: resume.pdf
       # - name: Upload pdf artifact
       #   uses: actions/upload-artifact@v2
       #   with:
