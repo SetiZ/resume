@@ -21,6 +21,6 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.2.1"
   }
 }
