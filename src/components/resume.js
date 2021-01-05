@@ -5,19 +5,15 @@ import Contact from './contact';
 import About from './about';
 import Profiles from './profiles';
 import Work from './work';
-import Volunteer from './volunteer';
 import Education from './education';
-import Awards from './awards';
-import Publications from './publications';
 import Skills from './skills';
 import Languages from './languages';
 import Interests from './interests';
-import References from './references';
 
 // console.log('@@ styles:', styles);
 
 const Resume = ({ resume }) => {
-  const { basics, work, volunteer, education, awards, publications, skills, languages, interests, references } = resume;
+  const { basics, work, education, skills, languages, interests } = resume;
   return (
     <React.Fragment>
       <Helmet>

@@ -16,7 +16,7 @@ const Publications = ({ publications }) => (
           </span>
         </h4>
         <div className="website pull-right">
-          <a href={publication.url}></a>
+          <a href={publication.url}>{publication.url}</a>
         </div>
         <div className="publisher">
           <em>Published by </em>
