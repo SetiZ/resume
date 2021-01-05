@@ -26,6 +26,7 @@ skills:
   - CSS3
   - Javascript (ES2015+)
   - Typescript
+  - ReactJs
   - PHP
   - Golang
 - name: Tools
@@ -39,7 +40,7 @@ skills:
   - Docker
   - Git
   - Jenkins
-- name: skills
+- name: Skills
   keywords:
   - Debugging
   - Performance
@@ -65,7 +66,7 @@ skills:
   - BEM
   - Lazyload
   - CacheBusting
-  - critical CSS
+  - Critical CSS
   - Accessibility
 work:
 - name: SFEIR
@@ -73,7 +74,7 @@ work:
   position: Fullstack developer
   url: https://www.sfeir.com
   startDate: '2017-03-06'
-  # endDate: '2020-12-31'
+  # endDate: '2021-01-31'
   summary: SFEIR is an expert company specializing in the development of applications in all their forms
   description: Contracted to work at Franceinfo
   highlights:
