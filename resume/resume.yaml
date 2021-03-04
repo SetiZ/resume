@@ -69,12 +69,22 @@ skills:
   - Critical CSS
   - Accessibility
 work:
+- name: TheTribe
+  location: Paris, France
+  position: Senior developer
+  url: https://www.thetribe.io
+  startDate: '2021-03-01'
+  # endDate: '2021-03-01'
+  summary: TheTribe is a development agency, focused on bringing web and mobile solutions with passion
+  description: 
+  highlights:
+  
 - name: SFEIR
   location: Neuilly-sur-Seine, France
   position: Fullstack developer
   url: https://www.sfeir.com
   startDate: '2017-03-06'
-  # endDate: '2021-01-31'
+  endDate: '2021-02-12'
   summary: SFEIR is an expert company specializing in the development of applications in all their forms
   description: Contracted to work at Franceinfo
   highlights:
