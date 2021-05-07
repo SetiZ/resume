@@ -1,0 +1,39 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: gatsby
+    versions:
+    - 2.32.0
+    - 2.32.10
+    - 2.32.2
+    - 2.32.3
+    - 2.32.4
+    - 2.32.6
+    - 2.32.8
+    - 2.32.9
+  - dependency-name: puppeteer
+    versions:
+    - 6.0.0
+    - 7.0.0
+    - 7.0.1
+    - 7.0.4
+    - 7.1.0
+    - 8.0.0
+  - dependency-name: react-dom
+    versions:
+    - 17.0.1
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - 3.10.0
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - 2.11.0
