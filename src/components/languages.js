@@ -7,13 +7,13 @@ const Languages = ({ languages }) => (
 		</aside>
 		<div className="col-sm-9">
       <div className="row">
-          <div className="language">
+          {/* <div className="language"> */}
             <ul className="keywords">
               {languages.keywords.map(keyword => (
                 <li>{keyword}</li>
               ))}
             </ul>
-          </div>
+          {/* </div> */}
 			</div>
 		</div>
 	</section>);
