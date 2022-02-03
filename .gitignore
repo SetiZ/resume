@@ -1,4 +1,6 @@
 .DS_Store
-node_modules/
-public/
 .cache
+.vscode
+node_modules
+public
+resume.pdf
