@@ -160,7 +160,7 @@ h4 span:first-child {
 	.strike-through span + span {
 		font-size: 14px;
 		margin-top: -10px;
-		padding-left: 20px;
+		padding-left: 10px;
 		right: 0;
 	}
 }

@@ -16,9 +16,12 @@ basics:
   - network: LinkedIn
     username: Mehdi Fekih
     url: http://www.linkedin.com/in/mehdifekih/
-  - network: Resume
-    username: PDF
-    url: http://setiz.github.io/resume/resume.pdf
+  - network: Polywork
+    username: setiz
+    url: https://www.polywork.com/setiz
+  # - network: Resume
+  #   username: PDF
+  #   url: http://setiz.github.io/resume/resume.pdf
 skills:
 - name: Languages
   keywords:
@@ -37,6 +40,7 @@ skills:
   - Babel
   - ESLint
   - StyleLint
+  - GraphQL
   - Docker
   - Git
   - Jenkins
@@ -76,8 +80,17 @@ work:
   startDate: '2021-03-01'
   # endDate: '2021-03-01'
   summary: TheTribe is a development agency, focused on bringing web and mobile solutions with passion
-  description: 
+  description: Empowering companies and entrepreneurs with product design and development
   highlights:
+  - Building a platform to manage phone lines
+    - Building monorepo front stack with Learna/react/graphql
+    - Development on backend, frontend and middleware in python/GraphQL/ReactJs
+    - Building frontend CI eslint/docker/Gitlab-CI
+  - Building a food order platform for congresses and events
+    - Fullstack development of the app on ReactJs/Node/GraphQL/ChakraUI
+    - Development of the BackOffice with react-admin
+  - Developing for a platform of social profiles management
+    - Development of frontend components NextJs/SWR/TailWindCss
   
 - name: SFEIR
   location: Neuilly-sur-Seine, France
@@ -118,7 +131,7 @@ work:
   url: https://www.adyoulike.com
   startDate: '2014-08-01'
   endDate: '2017-02-28'
-  summary:
+  description: Development and maintenance of advertising script and formats
   highlights:
   - Development of new native advertising formats
   - Evolution and maintenance of responsive design for multiple browser and devices
@@ -129,7 +142,6 @@ work:
   url: https://www.sofialys.com
   startDate: '2010-07-01'
   endDate: '2014-07-31'
-  summary:
   description: Development et maintenance of mobile advertising SDK for Android
   highlights:
   - Development of mobile advertising SDK for Android
