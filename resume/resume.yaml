@@ -4,8 +4,8 @@ basics:
   label: Fullstack Developer
   image: ''
   email: mehdi.fekih@gmail.com
-  url: http://www.setiz.net
-  summary: I am a Full-stack developer with strong Front-end sensitivity base in Paris, France. Interested in javascript tools, I am looking to improve my knowledge of front and back frameworks.
+  url: https://www.setiz.net
+  summary: I am a full-stack developer with strong frontend sensitivity based in Paris, France. I am interested in javascript code and developer tools, I am  also looking to improve my knowledge of frontend and backend frameworks.
   profiles:
   - network: Github
     username: SetiZ
@@ -15,23 +15,22 @@ basics:
     url: https://www.twitter.com/funkysetiz
   - network: LinkedIn
     username: Mehdi Fekih
-    url: http://www.linkedin.com/in/mehdifekih/
+    url: https://www.linkedin.com/in/mehdifekih/
   - network: Polywork
     username: setiz
     url: https://www.polywork.com/setiz
   # - network: Resume
   #   username: PDF
-  #   url: http://setiz.github.io/resume/resume.pdf
+  #   url: https://setiz.github.io/resume/resume.pdf
 skills:
 - name: Languages
   keywords:
-  - HTML5
-  - CSS3
+  - HTML
+  - CSS
   - Javascript (ES2015+)
   - Typescript
   - ReactJs
   - PHP
-  - Golang
 - name: Tools
   keywords:
   - NodeJS
@@ -55,8 +54,7 @@ skills:
 - name: Tests
   keywords:
   - Jest
-  - Karma
-  - Jasmine
+  - Karma/Jasmine
   - Cypress
 - name: Database
   keywords:
