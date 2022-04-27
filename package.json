@@ -16,7 +16,7 @@
     "gatsby-source-filesystem": "^4.12.1",
     "gatsby-transformer-yaml": "^4.12.1",
     "puppeteer": "^13.6.0",
-    "react": "^18.0.0",
+    "react": "^18.1.0",
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0"
   },
