@@ -5754,7 +5754,7 @@ gatsby-cli@^4.19.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.18.1, gatsby-core-utils@^3.19.0:
+gatsby-core-utils@^3.19.0:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.19.0.tgz#9de637574af1d1d283ffa9b38f058aa2dc6e3d12"
   integrity sha512-cjXs9DsXkPZt+UdiLHxtq+rGMGVrcnM0KwkawlruvPchI7lqGNv9CScqlvYPxx1dBhu3zSZS26EBALMlFhyOJA==
@@ -5948,10 +5948,10 @@ gatsby-telemetry@^3.19.0:
     lodash "^4.17.21"
     node-fetch "^2.6.7"
 
-gatsby-transformer-yaml@^4.18.0:
-  version "4.18.0"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-yaml/-/gatsby-transformer-yaml-4.18.0.tgz#95313d11ae296852a9d2b1867d01dd19f88a8059"
-  integrity sha512-NZopXaKAoDrqlTkPw7Bqxv8KG2LlAgwnU5N27msDCs+b81NMW9wmPi3OEd21Oga+hhOlGjBHbShcC/zk8OnLcw==
+gatsby-transformer-yaml@^4.19.0:
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-yaml/-/gatsby-transformer-yaml-4.19.0.tgz#ef4da2f2ba89365790318bda9186f3abcdde968b"
+  integrity sha512-xWa6D67kzvcSKNzz0mKVXLtIr+xJDp7rAqMckLetnjfaWOK/uAAyy7UZ9kbbJNQM06/mDF0IjQTwKDXEk3YDTw==
   dependencies:
     "@babel/runtime" "^7.15.4"
     js-yaml "^3.14.1"
