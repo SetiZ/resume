@@ -10,7 +10,7 @@
     "generate": "node src/generate-pdf.js"
   },
   "dependencies": {
-    "bootstrap": "^5.2.1",
+    "bootstrap": "^5.2.2",
     "gatsby": "^4.21.1",
     "gatsby-plugin-react-helmet": "^5.23.0",
     "gatsby-source-filesystem": "^4.24.0",
