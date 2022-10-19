@@ -92,7 +92,7 @@ work:
   - Developing for a shopping plateform for customizable items
     - Retrive data from emails and generate hubspot cards on Node/NestJs
   - Build a recruiting plateform for airport jobs
-    - Fullstack development of the amm on NextJs/Node/Strapi
+    - Fullstack development of the app on NextJs/Node/Strapi
     - Development of the BackOffice with Refine.dev
   
 - name: SFEIR
