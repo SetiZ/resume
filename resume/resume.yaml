@@ -80,20 +80,22 @@ work:
   summary: TheTribe is a development agency, focused on bringing web and mobile solutions with passion
   description: Empowering companies and entrepreneurs with product design and development
   highlights:
+  - Build a recruiting plateform for airport jobs
+    - Working on the MVP needs with the client
+    - Fullstack development of the app on NextJs/Node/Strapi
+    - Development of the BackOffice with Refine.dev
+  - Developing for a shopping plateform for customizable clothing items
+    - Retrive data from emails and generate hubspot cards on Node/NestJs
+  - Developing for a platform of social profiles management
+    - Development of frontend components NextJs/SWR/TailWindCss
+  - Building a food order platform for congresses and events
+    - Working on the MVP needs with the client
+    - Fullstack development of the app on ReactJs/Node/GraphQL/ChakraUI
+    - Development of the BackOffice with react-admin
   - Building a platform to manage phone lines
     - Building monorepo front stack with Learna/react/graphql
     - Development on backend, frontend and middleware in python/GraphQL/ReactJs
     - Building frontend CI eslint/docker/Gitlab-CI
-  - Building a food order platform for congresses and events
-    - Fullstack development of the app on ReactJs/Node/GraphQL/ChakraUI
-    - Development of the BackOffice with react-admin
-  - Developing for a platform of social profiles management
-    - Development of frontend components NextJs/SWR/TailWindCss
-  - Developing for a shopping plateform for customizable items
-    - Retrive data from emails and generate hubspot cards on Node/NestJs
-  - Build a recruiting plateform for airport jobs
-    - Fullstack development of the app on NextJs/Node/Strapi
-    - Development of the BackOffice with Refine.dev
   
 - name: SFEIR
   location: Neuilly-sur-Seine, France
