@@ -14,7 +14,7 @@ const Skills = ({ skills }) => (
         </div>
         <ul className="keywords">
           {skill.keywords.map(keyword => (
-            <li>{keyword}</li>
+            <li key={keyword}>{keyword}</li>
           ))}
         </ul>
       </div>

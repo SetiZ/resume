@@ -14,7 +14,7 @@ const Interests = ({ interests }) => (
           </div> */}
           <ul className="keywords">
             {interests.keywords.map(keyword => (
-              <li>{keyword}</li>
+              <li key={keyword}>{keyword}</li>
             ))}
           </ul>
         </div>

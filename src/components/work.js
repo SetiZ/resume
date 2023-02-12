@@ -8,7 +8,7 @@ const Work = ({ works }) => (
     <div className="col-sm-9">
       <div className="row">
         {works.map(work => (
-          <div className="col-sm-12" key={work.name}>
+          <div className="col-sm-12" key={`${work.name}-${work.startDate}`}>
             <h4 className="strike-through">
               <span>{work.name}</span>
               <span className="date">
@@ -30,7 +30,7 @@ const Work = ({ works }) => (
                 <h4>Highlights</h4>
                 <ul className="highlights">
                   {work.highlights.map(highlight => (
-                    <li className="bullet">{highlight}</li>
+                    <li key={highlight} className="bullet">{highlight}</li>
                   ))}
                 </ul>
               </React.Fragment>

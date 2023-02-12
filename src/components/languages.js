@@ -10,7 +10,7 @@ const Languages = ({ languages }) => (
           {/* <div className="language"> */}
             <ul className="keywords">
               {languages.keywords.map(keyword => (
-                <li>{keyword}</li>
+                <li key={keyword}>{keyword}</li>
               ))}
             </ul>
           {/* </div> */}
