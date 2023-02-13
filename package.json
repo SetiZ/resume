@@ -8,7 +8,7 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deplot:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/SetiZ/resume.git",
+    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/SetiZ/resume.git",
     "generate": "node src/generate-pdf.js"
   },
   "dependencies": {
