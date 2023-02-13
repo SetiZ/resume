@@ -15,12 +15,17 @@ jobs:
           git config --global user.email "funkysetiz@gmail.com"
           git config --global user.name "SetiZ"
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install dependencies
-        run: |
-          corepack enable
-          corepack prepare yarn@stable --activate
-          yarn
+        run: yarn
+      # - name: Install dependencies
+      #   run: |
+      #     corepack enable
+      #     corepack prepare yarn@stable --activate
+      #     yarn
       - name: Deploy
         run: yarn deploy:ci
       # - uses: actions/checkout@v2
