@@ -7783,15 +7783,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-react-helmet@npm:^6.7.0":
-  version: 6.7.0
-  resolution: "gatsby-plugin-react-helmet@npm:6.7.0"
+"gatsby-plugin-react-helmet@npm:^6.8.0":
+  version: 6.8.0
+  resolution: "gatsby-plugin-react-helmet@npm:6.8.0"
   dependencies:
     "@babel/runtime": ^7.20.13
   peerDependencies:
     gatsby: ^5.0.0-next
     react-helmet: ^5.1.3 || ^6.0.0
-  checksum: 28877a6d01c6f94fa2c63785f2a7571dafa61a7ea5aad8086dc5c8c8a75860d4760dca45218f0687b889763dceb67aba1d953bbd94b5c6089f8a7b0ca7d48388
+  checksum: 0413ee35c928771855211c5e341a2af7de91e45fbede4d65c66aa64c6616f9cdff08ce6eae28ff14b360def02e61aff6cbe2cf89b771046a222fe04e76c41e75
   languageName: node
   linkType: hard
 
@@ -12698,7 +12698,7 @@ __metadata:
   dependencies:
     bootstrap: ^5.2.3
     gatsby: ^5.7.0
-    gatsby-plugin-react-helmet: ^6.7.0
+    gatsby-plugin-react-helmet: ^6.8.0
     gatsby-source-filesystem: ^5.7.0
     gatsby-transformer-yaml: ^5.8.0
     gh-pages: ^5.0.0
