@@ -7691,6 +7691,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.8.0":
+  version: 4.8.0
+  resolution: "gatsby-core-utils@npm:4.8.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^11.1.0
+    got: ^11.8.5
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 6147c180162037b574873c1020538500d7c2f43f1a40fea04a13eb8c7e8197f4c1c177edf64cf4c7f55840ac7b79ea3278b82a93217a1766ef0ef501358eab9d
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.7.0":
   version: 3.7.0
   resolution: "gatsby-graphiql-explorer@npm:3.7.0"
@@ -7867,22 +7891,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^5.7.0":
-  version: 5.7.0
-  resolution: "gatsby-source-filesystem@npm:5.7.0"
+"gatsby-source-filesystem@npm:^5.8.0":
+  version: 5.8.0
+  resolution: "gatsby-source-filesystem@npm:5.8.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     chokidar: ^3.5.3
     file-type: ^16.5.4
     fs-extra: ^11.1.0
-    gatsby-core-utils: ^4.7.0
+    gatsby-core-utils: ^4.8.0
     mime: ^3.0.0
     pretty-bytes: ^5.6.0
     valid-url: ^1.0.9
     xstate: ^4.35.3
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: ed9e780c15abf394e96706a850814c45c85f84c1639f84f5ea9aa5a1140fe77f98c5809b8d7d9a24efa87bfe96e09b2e990b3103eed1ca3299614d59a627d0b7
+  checksum: 4a8ebf29f444cfcae61074f7f8cb1c98d6bad13e5f60d57c18c5934e70c68d910d7606773f0675b9f16e5ea1190aa7285dd3a7b119ea1daa23457193439dcd68
   languageName: node
   linkType: hard
 
@@ -12699,7 +12723,7 @@ __metadata:
     bootstrap: ^5.2.3
     gatsby: ^5.7.0
     gatsby-plugin-react-helmet: ^6.8.0
-    gatsby-source-filesystem: ^5.7.0
+    gatsby-source-filesystem: ^5.8.0
     gatsby-transformer-yaml: ^5.8.0
     gh-pages: ^5.0.0
     prettier: ^2.8.4
