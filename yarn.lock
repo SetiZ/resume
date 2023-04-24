@@ -3149,9 +3149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@puppeteer/browsers@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@puppeteer/browsers@npm:0.3.2"
+"@puppeteer/browsers@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@puppeteer/browsers@npm:0.5.0"
   dependencies:
     debug: 4.3.4
     extract-zip: 2.0.1
@@ -3168,7 +3168,7 @@ __metadata:
       optional: true
   bin:
     browsers: lib/cjs/main-cli.js
-  checksum: 122f0444a605a004c4f2010034f6d4fa383c093c2fe90f71f4f1f2909d6c95796feb68987d90c109c1625a82e45b16af998b7a73a50f9ca63bc7d4a5474b6f2e
+  checksum: d75fde03be4be106ca907834739251c2bb0b33a09fa23315c5dbe8b8b4cfed2f1b26af62e1dbe5fccc227e9bc87b51da0815461b982477eb01439bfdd6e7b01a
   languageName: node
   linkType: hard
 
@@ -7594,7 +7594,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -11985,10 +11985,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer-core@npm:19.8.3":
-  version: 19.8.3
-  resolution: "puppeteer-core@npm:19.8.3"
+"puppeteer-core@npm:19.10.1":
+  version: 19.10.1
+  resolution: "puppeteer-core@npm:19.10.1"
   dependencies:
+    "@puppeteer/browsers": 0.5.0
     chromium-bidi: 0.4.6
     cross-fetch: 3.1.5
     debug: 4.3.4
@@ -12004,21 +12005,21 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 97f706851c9d432eb31d19f8bf05060ee5ecfe43d816e5a67a8a761dc85ffb28324e4292163717e8520093ebc4b3a9afdb6d7f447c93a37158274d97bcb40201
+  checksum: b913bc566e6202b073021c4978845c3db905b85816631a05d50e0ddb05fa3760d620eb887b073e58352133f50c354daa843b74bab542c7b6756d3d26eb576f8b
   languageName: node
   linkType: hard
 
-"puppeteer@npm:^19.8.3":
-  version: 19.8.3
-  resolution: "puppeteer@npm:19.8.3"
+"puppeteer@npm:^19.10.1":
+  version: 19.10.1
+  resolution: "puppeteer@npm:19.10.1"
   dependencies:
-    "@puppeteer/browsers": 0.3.2
+    "@puppeteer/browsers": 0.5.0
     cosmiconfig: 8.1.3
     https-proxy-agent: 5.0.1
     progress: 2.0.3
     proxy-from-env: 1.1.0
-    puppeteer-core: 19.8.3
-  checksum: ae19975f6448960093c8aba592e3b902896b4dd59c2abaef553d7e5bc9572e3824a0f48db7b904bb664f38aab93dcb16b60a94903cc04ab81e8c9a1f528ccb88
+    puppeteer-core: 19.10.1
+  checksum: b0b10c6be44ecd619936ad31e6a8d7079cae4cc0fd887552e1afb3e2359773e71bcd5478f34170712369947a110b92ec8c76dbe699fe59f4a4dc5d2fd73761fe
   languageName: node
   linkType: hard
 
@@ -12580,7 +12581,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -12593,7 +12594,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
@@ -12606,7 +12607,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -12656,7 +12657,7 @@ __metadata:
     gatsby-transformer-yaml: ^5.8.0
     gh-pages: ^5.0.0
     prettier: ^2.8.7
-    puppeteer: ^19.8.3
+    puppeteer: ^19.10.1
     react: ^18.2.0
     react-dom: ^18.2.0
     react-helmet: ^6.1.0
