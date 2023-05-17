@@ -7594,7 +7594,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -7801,15 +7801,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-react-helmet@npm:^6.8.0":
-  version: 6.8.0
-  resolution: "gatsby-plugin-react-helmet@npm:6.8.0"
+"gatsby-plugin-react-helmet@npm:^6.10.0":
+  version: 6.10.0
+  resolution: "gatsby-plugin-react-helmet@npm:6.10.0"
   dependencies:
     "@babel/runtime": ^7.20.13
   peerDependencies:
     gatsby: ^5.0.0-next
     react-helmet: ^5.1.3 || ^6.0.0
-  checksum: 0413ee35c928771855211c5e341a2af7de91e45fbede4d65c66aa64c6616f9cdff08ce6eae28ff14b360def02e61aff6cbe2cf89b771046a222fe04e76c41e75
+  checksum: 3b76bbed801a46b37d412a3bfebaa18bdf93f2661064e444f948bcb738b78f08e39b875f87100cb156f4cd20654cf1a27d7e4323393852ae55df5896bc78576c
   languageName: node
   linkType: hard
 
@@ -12580,7 +12580,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -12593,7 +12593,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
@@ -12606,7 +12606,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -12651,7 +12651,7 @@ __metadata:
   dependencies:
     bootstrap: ^5.2.3
     gatsby: ^5.8.1
-    gatsby-plugin-react-helmet: ^6.8.0
+    gatsby-plugin-react-helmet: ^6.10.0
     gatsby-source-filesystem: ^5.8.0
     gatsby-transformer-yaml: ^5.8.0
     gh-pages: ^5.0.0
