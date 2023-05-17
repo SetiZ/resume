@@ -7594,7 +7594,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -7924,16 +7924,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-yaml@npm:^5.8.0":
-  version: 5.8.0
-  resolution: "gatsby-transformer-yaml@npm:5.8.0"
+"gatsby-transformer-yaml@npm:^5.10.0":
+  version: 5.10.0
+  resolution: "gatsby-transformer-yaml@npm:5.10.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     js-yaml: ^4.1.0
     lodash: ^4.17.21
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 25f7c76c1f7a5ba5a6f6468893b274e4cc088e812ac162123e07773b1b64cfff40d3fe8a50c928c3f983a69f441cab660c23095e0be49062667ce22e44c7952c
+  checksum: 09911e8ecb547ad3e4aa0ce9ba496635b794155e740aca4b1b1d15f57922e30909b837c641d9263fe40c9dad0c87402296513787b852e88e9b86927a45608ef6
   languageName: node
   linkType: hard
 
@@ -12580,7 +12580,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -12593,7 +12593,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
@@ -12606,7 +12606,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -12653,7 +12653,7 @@ __metadata:
     gatsby: ^5.8.1
     gatsby-plugin-react-helmet: ^6.8.0
     gatsby-source-filesystem: ^5.8.0
-    gatsby-transformer-yaml: ^5.8.0
+    gatsby-transformer-yaml: ^5.10.0
     gh-pages: ^5.0.0
     prettier: ^2.8.7
     puppeteer: ^19.8.3
