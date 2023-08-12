@@ -1,6 +1,14 @@
 .DS_Store
 .cache
 .vscode
-node_modules
 public
 resume.pdf
+
+# yarn zero-installs
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
