@@ -20,12 +20,10 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: yarn
-      # - name: Install dependencies
-      #   run: |
-      #     corepack enable
-      #     corepack prepare yarn@stable --activate
-      #     yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@stable --activate
+          yarn
       - name: Deploy
         run: yarn deploy:ci
       # - uses: actions/checkout@v2
