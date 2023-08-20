@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-react-helmet", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:6.11.0"],\
             ["gatsby-source-filesystem", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.11.0"],\
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.11.0"],\
-            ["gh-pages", "npm:5.0.0"],\
+            ["gh-pages", "npm:6.0.0"],\
             ["prettier", "npm:3.0.1"],\
             ["puppeteer", "npm:21.0.3"],\
             ["react", "npm:18.2.0"],\
@@ -7178,6 +7178,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["commander", [\
+        ["npm:11.0.0", {\
+          "packageLocation": "./.yarn/cache/commander-npm-11.0.0-7def992f0c-6621954e1e.zip/node_modules/commander/",\
+          "packageDependencies": [\
+            ["commander", "npm:11.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:2.20.3", {\
           "packageLocation": "./.yarn/cache/commander-npm-2.20.3-d8dcbaa39b-ab8c07884e.zip/node_modules/commander/",\
           "packageDependencies": [\
@@ -10697,16 +10704,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["gh-pages", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/cache/gh-pages-npm-5.0.0-85e52a94f0-d766aef02d.zip/node_modules/gh-pages/",\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/gh-pages-npm-6.0.0-2e48eb90f2-031f9070cd.zip/node_modules/gh-pages/",\
           "packageDependencies": [\
-            ["gh-pages", "npm:5.0.0"],\
+            ["gh-pages", "npm:6.0.0"],\
             ["async", "npm:3.2.4"],\
-            ["commander", "npm:2.20.3"],\
+            ["commander", "npm:11.0.0"],\
             ["email-addresses", "npm:5.0.0"],\
             ["filenamify", "npm:4.3.0"],\
             ["find-cache-dir", "npm:3.3.2"],\
-            ["fs-extra", "npm:8.1.0"],\
+            ["fs-extra", "npm:11.1.1"],\
             ["globby", "npm:6.1.0"]\
           ],\
           "linkType": "HARD"\
@@ -15904,7 +15911,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-react-helmet", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:6.11.0"],\
             ["gatsby-source-filesystem", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.11.0"],\
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.11.0"],\
-            ["gh-pages", "npm:5.0.0"],\
+            ["gh-pages", "npm:6.0.0"],\
             ["prettier", "npm:3.0.1"],\
             ["puppeteer", "npm:21.0.3"],\
             ["react", "npm:18.2.0"],\
