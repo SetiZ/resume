@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.12.0"],\
             ["gh-pages", "npm:6.0.0"],\
             ["prettier", "npm:3.0.3"],\
-            ["puppeteer", "npm:21.3.6"],\
+            ["puppeteer", "npm:21.3.7"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:18.2.0"],\
             ["react-helmet", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:6.1.0"]\
@@ -6949,10 +6949,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e2ffe6643fd9d9aedaf831052606b790f6bad54259fdf17fbc35f4c707654364e72981da8a504ee8a17efeab5c33c348bcf2c504854073b10722528f49c0a5d#npm:0.4.28", {\
-          "packageLocation": "./.yarn/__virtual__/chromium-bidi-virtual-049a1b6e2a/0/cache/chromium-bidi-npm-0.4.28-d14ac319b4-d8ac0aefcf.zip/node_modules/chromium-bidi/",\
+        ["virtual:4489e518d5f3cb07e833b8b4d30139228b396edf6325c3306cfb38b78d0a937bee809de156c130afd951fc41f1a120a434ee829839dd11d13568611c90928bf7#npm:0.4.28", {\
+          "packageLocation": "./.yarn/__virtual__/chromium-bidi-virtual-0b0a8c81df/0/cache/chromium-bidi-npm-0.4.28-d14ac319b4-d8ac0aefcf.zip/node_modules/chromium-bidi/",\
           "packageDependencies": [\
-            ["chromium-bidi", "virtual:5e2ffe6643fd9d9aedaf831052606b790f6bad54259fdf17fbc35f4c707654364e72981da8a504ee8a17efeab5c33c348bcf2c504854073b10722528f49c0a5d#npm:0.4.28"],\
+            ["chromium-bidi", "virtual:4489e518d5f3cb07e833b8b4d30139228b396edf6325c3306cfb38b78d0a937bee809de156c130afd951fc41f1a120a434ee829839dd11d13568611c90928bf7#npm:0.4.28"],\
             ["@types/devtools-protocol", null],\
             ["devtools-protocol", "npm:0.0.1179426"],\
             ["mitt", "npm:3.0.1"],\
@@ -7482,10 +7482,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:1cb044f6d8906edec383235091e9279fc7129c77d48c9e9575848999afacc1e5ea0020e3f9cb2edbcc8c1917f1c57058a787ebacefbdb5e16987f0b1683e9acb#npm:8.3.6", {\
-          "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-ca3c8c5ba5/0/cache/cosmiconfig-npm-8.3.6-a5566e2779-dc339ebea4.zip/node_modules/cosmiconfig/",\
+        ["virtual:24c93a6785782350e67aef628a860f9a8e8230191c7cdaccb82cdb3375e26d28198ddcac4403c3e206d33917f630e66b0feacd2e100e0a2abedaf1f0abbc1845#npm:8.3.6", {\
+          "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-81f848aec0/0/cache/cosmiconfig-npm-8.3.6-a5566e2779-dc339ebea4.zip/node_modules/cosmiconfig/",\
           "packageDependencies": [\
-            ["cosmiconfig", "virtual:1cb044f6d8906edec383235091e9279fc7129c77d48c9e9575848999afacc1e5ea0020e3f9cb2edbcc8c1917f1c57058a787ebacefbdb5e16987f0b1683e9acb#npm:8.3.6"],\
+            ["cosmiconfig", "virtual:24c93a6785782350e67aef628a860f9a8e8230191c7cdaccb82cdb3375e26d28198ddcac4403c3e206d33917f630e66b0feacd2e100e0a2abedaf1f0abbc1845#npm:8.3.6"],\
             ["@types/typescript", null],\
             ["import-fresh", "npm:3.3.0"],\
             ["js-yaml", "npm:4.1.0"],\
@@ -15207,28 +15207,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["puppeteer", [\
-        ["npm:21.3.6", {\
-          "packageLocation": "./.yarn/unplugged/puppeteer-npm-21.3.6-1cb044f6d8/node_modules/puppeteer/",\
+        ["npm:21.3.7", {\
+          "packageLocation": "./.yarn/unplugged/puppeteer-npm-21.3.7-24c93a6785/node_modules/puppeteer/",\
           "packageDependencies": [\
-            ["puppeteer", "npm:21.3.6"],\
+            ["puppeteer", "npm:21.3.7"],\
             ["@puppeteer/browsers", "npm:1.7.1"],\
-            ["cosmiconfig", "virtual:1cb044f6d8906edec383235091e9279fc7129c77d48c9e9575848999afacc1e5ea0020e3f9cb2edbcc8c1917f1c57058a787ebacefbdb5e16987f0b1683e9acb#npm:8.3.6"],\
-            ["puppeteer-core", "npm:21.3.6"]\
+            ["cosmiconfig", "virtual:24c93a6785782350e67aef628a860f9a8e8230191c7cdaccb82cdb3375e26d28198ddcac4403c3e206d33917f630e66b0feacd2e100e0a2abedaf1f0abbc1845#npm:8.3.6"],\
+            ["puppeteer-core", "npm:21.3.7"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["puppeteer-core", [\
-        ["npm:21.3.6", {\
-          "packageLocation": "./.yarn/cache/puppeteer-core-npm-21.3.6-5e2ffe6643-18f85781d0.zip/node_modules/puppeteer-core/",\
+        ["npm:21.3.7", {\
+          "packageLocation": "./.yarn/cache/puppeteer-core-npm-21.3.7-4489e518d5-0ff4d49dcd.zip/node_modules/puppeteer-core/",\
           "packageDependencies": [\
-            ["puppeteer-core", "npm:21.3.6"],\
+            ["puppeteer-core", "npm:21.3.7"],\
             ["@puppeteer/browsers", "npm:1.7.1"],\
-            ["chromium-bidi", "virtual:5e2ffe6643fd9d9aedaf831052606b790f6bad54259fdf17fbc35f4c707654364e72981da8a504ee8a17efeab5c33c348bcf2c504854073b10722528f49c0a5d#npm:0.4.28"],\
+            ["chromium-bidi", "virtual:4489e518d5f3cb07e833b8b4d30139228b396edf6325c3306cfb38b78d0a937bee809de156c130afd951fc41f1a120a434ee829839dd11d13568611c90928bf7#npm:0.4.28"],\
             ["cross-fetch", "npm:4.0.0"],\
             ["debug", "virtual:92a28e392bb7746809827b7e8ebf6aec49c5f04125481214ae6ea6f4de204344bcccbe5eb3a2f4388bb368cfa5d84f03ce0d8f32a9fcc3f5e92ea34723da1c56#npm:4.3.4"],\
             ["devtools-protocol", "npm:0.0.1179426"],\
-            ["ws", "virtual:5e2ffe6643fd9d9aedaf831052606b790f6bad54259fdf17fbc35f4c707654364e72981da8a504ee8a17efeab5c33c348bcf2c504854073b10722528f49c0a5d#npm:8.14.2"]\
+            ["ws", "virtual:4489e518d5f3cb07e833b8b4d30139228b396edf6325c3306cfb38b78d0a937bee809de156c130afd951fc41f1a120a434ee829839dd11d13568611c90928bf7#npm:8.14.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15938,7 +15938,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.12.0"],\
             ["gh-pages", "npm:6.0.0"],\
             ["prettier", "npm:3.0.3"],\
-            ["puppeteer", "npm:21.3.6"],\
+            ["puppeteer", "npm:21.3.7"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:18.2.0"],\
             ["react-helmet", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:6.1.0"]\
@@ -18107,10 +18107,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:5e2ffe6643fd9d9aedaf831052606b790f6bad54259fdf17fbc35f4c707654364e72981da8a504ee8a17efeab5c33c348bcf2c504854073b10722528f49c0a5d#npm:8.14.2", {\
-          "packageLocation": "./.yarn/__virtual__/ws-virtual-2b19170d45/0/cache/ws-npm-8.14.2-b339ac47a2-3ca0dad26e.zip/node_modules/ws/",\
+        ["virtual:4489e518d5f3cb07e833b8b4d30139228b396edf6325c3306cfb38b78d0a937bee809de156c130afd951fc41f1a120a434ee829839dd11d13568611c90928bf7#npm:8.14.2", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-a63d1bbb44/0/cache/ws-npm-8.14.2-b339ac47a2-3ca0dad26e.zip/node_modules/ws/",\
           "packageDependencies": [\
-            ["ws", "virtual:5e2ffe6643fd9d9aedaf831052606b790f6bad54259fdf17fbc35f4c707654364e72981da8a504ee8a17efeab5c33c348bcf2c504854073b10722528f49c0a5d#npm:8.14.2"],\
+            ["ws", "virtual:4489e518d5f3cb07e833b8b4d30139228b396edf6325c3306cfb38b78d0a937bee809de156c130afd951fc41f1a120a434ee829839dd11d13568611c90928bf7#npm:8.14.2"],\
             ["@types/bufferutil", null],\
             ["@types/utf-8-validate", null],\
             ["bufferutil", null],\
