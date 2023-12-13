@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-source-filesystem", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.12.1"],\
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.12.0"],\
             ["gh-pages", "npm:6.1.0"],\
-            ["prettier", "npm:3.1.0"],\
+            ["prettier", "npm:3.1.1"],\
             ["puppeteer", "npm:21.6.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:18.2.0"],\
@@ -15101,10 +15101,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:3.1.0", {\
-          "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.0-708d6027b1/node_modules/prettier/",\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.1-072c31ec21/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:3.1.0"]\
+            ["prettier", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16018,7 +16018,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-source-filesystem", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.12.1"],\
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.12.0"],\
             ["gh-pages", "npm:6.1.0"],\
-            ["prettier", "npm:3.1.0"],\
+            ["prettier", "npm:3.1.1"],\
             ["puppeteer", "npm:21.6.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:18.2.0"],\
