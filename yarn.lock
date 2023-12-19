@@ -7356,6 +7356,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.13.0":
+  version: 4.13.0
+  resolution: "gatsby-core-utils@npm:4.13.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.15.0
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    got: ^11.8.6
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 066aaac3d3acb52c7b6bee52d6b9b2ca3ef3c2f52b5a8b2bebfc1b9ef52286008f7b200c02da9df25beeb4c92c9861252f3330e5d68d3de7e02bf7c09cebf144
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.12.1":
   version: 3.12.1
   resolution: "gatsby-graphiql-explorer@npm:3.12.1"
@@ -7531,22 +7555,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^5.12.1":
-  version: 5.12.1
-  resolution: "gatsby-source-filesystem@npm:5.12.1"
+"gatsby-source-filesystem@npm:^5.13.0":
+  version: 5.13.0
+  resolution: "gatsby-source-filesystem@npm:5.13.0"
   dependencies:
-    "@babel/runtime": "npm:^7.20.13"
-    chokidar: "npm:^3.5.3"
-    file-type: "npm:^16.5.4"
-    fs-extra: "npm:^11.1.1"
-    gatsby-core-utils: "npm:^4.12.1"
-    mime: "npm:^3.0.0"
-    pretty-bytes: "npm:^5.6.0"
-    valid-url: "npm:^1.0.9"
-    xstate: "npm:^4.38.0"
+    "@babel/runtime": ^7.20.13
+    chokidar: ^3.5.3
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    gatsby-core-utils: ^4.13.0
+    mime: ^3.0.0
+    pretty-bytes: ^5.6.0
+    valid-url: ^1.0.9
+    xstate: ^4.38.0
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 11ea24b662ad06bc2de4055fecbfdae8f19ed712b3de8163912e7436785ac1e9a074cf99b778e305bf3bc287cbf12ac5cfdf86650b187a37b11ffba8b23a3e0f
+  checksum: 980439d1c59c172247386e6e8aec22d8edf0636a17acfba759c207e6c1e915615846df6ad25313a800db9d46f9b9210321c74c82d37d96ce94dbda39b198d3ce
   languageName: node
   linkType: hard
 
@@ -12125,7 +12149,7 @@ __metadata:
     bootstrap: ^5.3.2
     gatsby: ^5.12.12
     gatsby-plugin-react-helmet: ^6.12.0
-    gatsby-source-filesystem: ^5.12.1
+    gatsby-source-filesystem: ^5.13.0
     gatsby-transformer-yaml: ^5.12.0
     gh-pages: ^6.1.0
     prettier: ^3.1.1
