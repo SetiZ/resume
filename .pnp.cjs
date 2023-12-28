@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-react-helmet", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:6.13.0"],\
             ["gatsby-source-filesystem", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.13.0"],\
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.13.0"],\
-            ["gh-pages", "npm:6.1.0"],\
+            ["gh-pages", "npm:6.1.1"],\
             ["prettier", "npm:3.1.1"],\
             ["puppeteer", "npm:21.6.1"],\
             ["react", "npm:18.2.0"],\
@@ -10782,10 +10782,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["gh-pages", [\
-        ["npm:6.1.0", {\
-          "packageLocation": "./.yarn/cache/gh-pages-npm-6.1.0-bd68a9b948-aa8a836869.zip/node_modules/gh-pages/",\
+        ["npm:6.1.1", {\
+          "packageLocation": "./.yarn/cache/gh-pages-npm-6.1.1-7bde86cdf6-2c0209d7ae.zip/node_modules/gh-pages/",\
           "packageDependencies": [\
-            ["gh-pages", "npm:6.1.0"],\
+            ["gh-pages", "npm:6.1.1"],\
             ["async", "npm:3.2.4"],\
             ["commander", "npm:11.0.0"],\
             ["email-addresses", "npm:5.0.0"],\
@@ -16037,7 +16037,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-react-helmet", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:6.13.0"],\
             ["gatsby-source-filesystem", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.13.0"],\
             ["gatsby-transformer-yaml", "virtual:4786064bc501a318e209d28b75aa40896d35e6e071baeabf39b58b193a3d4ae80bd8d86a3fcb017b21d863c855872a76b4f4ad785291740ba986eedc69f594b6#npm:5.13.0"],\
-            ["gh-pages", "npm:6.1.0"],\
+            ["gh-pages", "npm:6.1.1"],\
             ["prettier", "npm:3.1.1"],\
             ["puppeteer", "npm:21.6.1"],\
             ["react", "npm:18.2.0"],\
