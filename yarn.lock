@@ -7552,16 +7552,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-yaml@npm:^5.13.0":
-  version: 5.13.0
-  resolution: "gatsby-transformer-yaml@npm:5.13.0"
+"gatsby-transformer-yaml@npm:^5.13.1":
+  version: 5.13.1
+  resolution: "gatsby-transformer-yaml@npm:5.13.1"
   dependencies:
     "@babel/runtime": ^7.20.13
     js-yaml: ^4.1.0
     lodash: ^4.17.21
   peerDependencies:
     gatsby: ^5.0.0-next
-  checksum: 0e4fc9487bf23c504ba889931d75e4177d9f42960e2f2aef02669e7d087030fca4c9b7f2076fd3bbaf7eab9faa6e5fd88443bdbc0172d2e9150b84496cce7e46
+  checksum: 488af60442669673f327fcef5f377ca5a01f98682033a6dce6a65862dc59c95f240e8a7aa3a827e65a5bc9bc498c5ae21f5271aea5c0337ca78d6c6e647c61bd
   languageName: node
   linkType: hard
 
@@ -12154,7 +12154,7 @@ __metadata:
     gatsby: ^5.13.1
     gatsby-plugin-react-helmet: ^6.13.0
     gatsby-source-filesystem: ^5.13.0
-    gatsby-transformer-yaml: ^5.13.0
+    gatsby-transformer-yaml: ^5.13.1
     gh-pages: ^6.1.1
     prettier: ^3.1.1
     puppeteer: ^21.6.1
