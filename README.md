@@ -1,3 +1,8 @@
+# archived resume
+this project is archived. my resume is available [here](https://registry.jsonresume.org/SetiZ) instead.
+
+
+
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/146aea20-09b6-497a-bc7b-b9842a1d0fdb/deploy-status)](https://app.netlify.com/sites/resume-with-gatsby/deploys) -->
 
 # resume-with-gatsby
