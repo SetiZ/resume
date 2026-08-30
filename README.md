@@ -1,5 +1,5 @@
 # archived resume
-this project is archived. my resume is available [[here](https://registry.jsonresume.org/SetiZ)] instead.
+this project is archived. my resume is available [here](https://registry.jsonresume.org/SetiZ) instead.
 
 
 
